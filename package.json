@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cash-dom": "^8.1.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Displayer</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="Test-Task.css" rel="stylesheet">
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search..." class="search-input">
+    <button id="search-button" class="search-btn">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+  <div class="filter-container">
+    <label for="filter-nature">
+      <input type="checkbox" id="filter-nature" class="filter-checkbox" value="nature">
+      Nature
+    </label>
+    <label for="filter-animals">
+      <input type="checkbox" id="filter-animals" class="filter-checkbox" value="animals">
+      Animals
+    </label>
+    <label for="filter-architecture">
+      <input type="checkbox" id="filter-architecture" class="filter-checkbox" value="architecture">
+      Architecture
+    </label>
+  </div>
+  <div id="image-container"></div>
+  <div id="modal" class="modal">
+    <div id="modal-content" class="modal-content">
+      <button id="close-modal" class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+  <div id="favorites-container" class="favorites-container">
+    <p>No favorites selected</p>
+  </div>
+  <button id="favorites-button" class="favorites-button">
+    <i class="fas fa-heart"></i>
+  </button>
+  <script src="https://cdn.jsdelivr.net/npm/cash-dom/dist/cash.min.js"></script>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
